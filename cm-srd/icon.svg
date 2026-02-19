@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#000000"/>
+
+  <!-- Outer diamond, bottom half -->
+  <polygon points="32,58 58,32 32,34 6,32" fill="#7a0025"/>
+
+  <!-- Outer diamond, top half — shifted right to create glitch offset -->
+  <polygon points="32,6 60,32 34,32 8,32" fill="#c5003c"/>
+
+  <!-- Gap / scanline between halves (black slice) -->
+  <rect x="0" y="31" width="64" height="2" fill="#000000"/>
+
+  <!-- Inner diamond accent, top half -->
+  <polygon points="32,14 50,31 32,31 14,31" fill="#000000" opacity="0.5"/>
+
+  <!-- Small centre dot -->
+  <rect x="30" y="30" width="4" height="4" fill="#55ead4"/>
+
+  <!-- Corner tick marks — top-left -->
+  <line x1="2" y1="2" x2="10" y2="2" stroke="#c5003c" stroke-width="1.5"/>
+  <line x1="2" y1="2" x2="2"  y2="10" stroke="#c5003c" stroke-width="1.5"/>
+
+  <!-- Corner tick marks — bottom-right -->
+  <line x1="62" y1="62" x2="54" y2="62" stroke="#c5003c" stroke-width="1.5"/>
+  <line x1="62" y1="62" x2="62" y2="54" stroke="#c5003c" stroke-width="1.5"/>
+</svg>
